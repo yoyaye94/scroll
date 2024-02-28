@@ -1,8 +1,8 @@
 {
-  "name": "berachain",
+  "name": "scroll",
   "version": "1.0.0",
-  "description": "A project for interaction with the Berachain network",
-  "main": "setupWallet.js",
+  "description": "A project for Scroll automation",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,17 +15,18 @@
     "blockchain",
     "smart contracts",
     "dapp",
-    "berachain",
+    "scroll",
     "web3"
   ],
   "author": "yoyaye",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yoyaye94/berachain/issues"
+    "url": "https://github.com/yoyaye94/scroll/issues"
   },
-  "homepage": "https://github.com/yoyaye94/berachain#readme",
+  "homepage": "https://github.com/yoyaye94/scroll#readme",
   "dependencies": {
     "axios": "^1.6.7",
-    "ethers": "^5.7.2"
+    "ethers": "^5.7.2",
+    "web3": "^4.5.0"
   }
 }

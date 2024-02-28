@@ -1,0 +1,31 @@
+{
+  "name": "berachain",
+  "version": "1.0.0",
+  "description": "A project for interaction with the Berachain network",
+  "main": "setupWallet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoyaye94/berachain.git"
+  },
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "smart contracts",
+    "dapp",
+    "berachain",
+    "web3"
+  ],
+  "author": "yoyaye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoyaye94/berachain/issues"
+  },
+  "homepage": "https://github.com/yoyaye94/berachain#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "ethers": "^5.7.2"
+  }
+}
